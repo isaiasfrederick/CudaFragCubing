@@ -1,0 +1,126 @@
+﻿Build started 28/01/2016 19:01:31.
+     1>Project "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\CudaFragCubing\CudaFragCubing.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\CudaFragCubing\kernel.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Isaias\AppData\Local\Temp\tmp0330fa3f9f1d411ab4b35598001263cb.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\CudaFragCubing\kernel.cu"
+         
+         C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\CudaFragCubing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\kernel.cu.obj "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\CudaFragCubing\kernel.cu" 
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\gpu.h(230): warning : variable "index" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(889): warning : variable "max_threads" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(911): warning : variable "total_numeros_copiados" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(993): warning : variable "tam_resposta" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\gpu.h(230): warning : variable "index" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(889): warning : variable "max_threads" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(911): warning : variable "total_numeros_copiados" was declared but never referenced
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(993): warning : variable "tam_resposta" was declared but never referenced
+         kernel.cu
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(34): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(45): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(151): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(165): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(171): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(214): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(224): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cuboid.h(237): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cubo.h(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\cubo.h(218): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(288): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(328): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(346): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(643): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(918): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(946): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(970): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(1027): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(993): warning C4101: 'tam_resposta' : unreferenced local variable
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(1052): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(1232): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\query.h(1249): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(97): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(143): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(144): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(241): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(265): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(287): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(294): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(308): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(319): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(322): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(369): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(370): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(411): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(412): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(472): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(494): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(496): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(505): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(509): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(511): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(562): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(645): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(691): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(692): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(715): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(774): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(775): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(785): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(807): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(812): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(874): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(875): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1269): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1344): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1345): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1362): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1463): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1490): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1495): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1496): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1535): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1540): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1560): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1577): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1578): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1612): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1613): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1655): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1677): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1679): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1691): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1695): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1697): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1714): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1720): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1723): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1724): warning C4244: 'argument' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1732): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1733): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1779): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1783): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1784): warning C4244: 'argument' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1821): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1822): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1887): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>c:\users\isaias\documents\visual studio 2013\projects\cudafragcubing\cudafragcubing\frag.h(1951): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>C:/Users/Isaias/documents/visual studio 2013/Projects/CudaFragCubing/CudaFragCubing/kernel.cu(19): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/Users/Isaias/documents/visual studio 2013/Projects/CudaFragCubing/CudaFragCubing/kernel.cu(179): warning C4018: '<' : signed/unsigned mismatch
+     1>C:/Users/Isaias/documents/visual studio 2013/Projects/CudaFragCubing/CudaFragCubing/kernel.cu(226): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\CudaFragCubing.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\CudaFragCubing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\CudaFragCubing.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         CudaFragCubing.vcxproj -> C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\CudaFragCubing.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 arquivo(s) copiado(s).
+     1>Done Building Project "C:\Users\Isaias\documents\visual studio 2013\Projects\CudaFragCubing\CudaFragCubing\CudaFragCubing.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:39.80
